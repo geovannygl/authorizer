@@ -1,6 +1,6 @@
 'use strict';
 
-export const handler = async (event) => {
+exports.handler = async (event) => {
     // Verificar si se proporciona un encabezado de autorización
     const authorizationHeader = event.headers.Authorization;
     
